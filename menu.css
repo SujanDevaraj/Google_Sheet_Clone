@@ -1,0 +1,72 @@
+.menus{
+    display: flex;
+    padding-left: 10px;
+    justify-content: flex-start;
+    align-content: center;
+   gap: 20px;
+   align-items: center;
+   padding-top: 10px;
+}
+.active-option{
+    background-color: #d0d8e0;
+}
+.menus>div,.menus>span{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius:4px ;
+    font-size: 25px;
+}
+.menus > div:hover,.menus>span:hover{
+    background-color: #d0d8e0aa;
+}
+.h_3{
+    display: flex;
+    gap:10px;
+    padding: 8px 10px;
+    background-color: #ecf0f1;
+    padding-left: 20px;
+}
+.formula-fx{
+    width: auto;
+    height: 24px;
+}
+#inputText{
+    width: 100%;
+    border: none;
+    font-size: medium;
+}
+#active-cell{
+    padding: 5px 20px;
+}
+#font-style,#font-size{
+    width: 200px;
+    height: 24px;
+    font-size: medium;
+}
+#h_1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    font-size: 20px;
+    height: 60px;
+    align-items: center;
+    background: #227447;
+    color: white;
+    
+}
+#h_1>span{
+    padding-inline: 20px;
+}
+.home{
+    background-color: #ecf0f1;
+    padding: 18px;
+    color:#227447;
+
+}
+#h_1 >span:hover{
+    background-color: #ecf0f1;
+cursor: pointer;
+padding: 18px;
+    color:#227447;
+}

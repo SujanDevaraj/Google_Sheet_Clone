@@ -1,0 +1,49 @@
+*{
+    padding:0px;
+    margin: 0 !important;
+}
+#header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+#header > b{
+    text-align: center;
+    padding: 10px 0;
+    min-width: 100px;
+    border: 1px solid #dfe4e9;
+    
+}
+.row{
+    display: flex;
+}
+.row >b , .row > div{
+    min-width: 100px;
+    padding: 10px 0;
+    border: 1px solid #dfe4e9;
+}
+.row > b:first-child{
+    text-align: center;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+}
+#options{
+    
+    background-color: #ecf0f1;
+}
+#active-cell{
+    background-color: white;
+    padding: 2px 10px;
+}
+#body{
+    width: fit-content;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+   
+}
